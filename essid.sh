@@ -7,7 +7,7 @@ ESSID_LOGO=""
 ESSID=$(iwgetid -r)
 
 LAN_LOGO=""
-LAN=$(ifconfig wlp59s0 | grep -o '192.*.net' | cut -d ' ' -f 1)
+LAN=$(ip add show wlp59s0 | grep -o '192.*.net' | cut -d ' ' -f 1)
 
 PUBLIC_LOGO=""
 PUBLIC=$(wget -qO- http://ipecho.net/plain ; echo)

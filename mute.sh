@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STATE=$(amixer get Master | sed -n 5p | cut -d '[' -f 4 | cut -d ']' -f 1)
+STATE=$(amixer get Master | sed -n 6p | cut -d '[' -f 3 | cut -d ']' -f 1)
 
 
 if [ "$STATE" == "on" ]; then

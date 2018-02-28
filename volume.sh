@@ -3,8 +3,8 @@
 COLOR="%{F#55}"
 WHITE="%{F#A6A6A6}"
 
-STATE=$(amixer get Master | sed -n 5p | cut -d '[' -f 4 | cut -d ']' -f 1)
-PERCENT=$(amixer get Master | sed -n 5p | cut -d '[' -f 2 | cut -d '%' -f 1)
+STATE=$(amixer get Master | sed -n 6p | cut -d '[' -f 3 | cut -d ']' -f 1)
+PERCENT=$(amixer get Master | sed -n 6p | cut -d '[' -f 2 | cut -d '%' -f 1)
 
 ICON_OFF=""
 ICON_DOWN=""
