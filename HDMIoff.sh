@@ -1,3 +1,3 @@
 #!/bin/bash
 
-xrandr --output HDMI-2 --off
+xrandr --output HDMI2 --off
