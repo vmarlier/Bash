@@ -1,5 +1,2 @@
 # Bash
-All my personal bash script.
-
-There are not perfect, I know it, but some of them are very helpful, like menu-wifi-netctl.
-I don't like NetworkManager so I created mine.
+All my bash scripts to create a sort of custom DE on Archilinux with i3wm.
